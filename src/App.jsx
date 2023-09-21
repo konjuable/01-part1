@@ -9,7 +9,18 @@ const Hello = (props) => {
   );
 };
 
+const Footer = (props) => {
+  console.log(props);
+  return (
+    <footer>
+      <hr />
+      <p>Greetings app created by {props.nimi}</p>
+    </footer>
+  );
+};
+
 const App = () => {
+  const author = "Juha Konttinen";
   const nimi = "Pekka";
   const ika = 37;
   return (
@@ -18,6 +29,7 @@ const App = () => {
       <Hello name="Maija" age={26 + 10} />
       <Hello name={nimi} age={ika} />
       <Hello name="Matti" age="38" />
+      <Footer nimi={author} />
     </>
   );
 };
