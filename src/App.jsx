@@ -55,9 +55,8 @@ const Friends = ({ nimi, ika }) => {
   );
 };
 
-const Footer = (props) => {
-  console.log(props);
-  const nimi = props.nimi;
+const Footer = ({ nimi }) => {
+  console.log(nimi);
   return (
     <footer>
       <hr />
