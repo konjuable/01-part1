@@ -60,7 +60,7 @@ const Footer = ({ nimi }) => {
   return (
     <footer>
       <hr />
-      <p>Greetings app created by {nimi}</p>
+      <p>Greetings app created by {nimi} (c) 2024</p>
     </footer>
   );
 };
