@@ -2,7 +2,7 @@
   "name": "01-part1",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://github.com/konjuable/01-part1.git",
+  "homepage": "https://github.com/konjuable/01-part1",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
